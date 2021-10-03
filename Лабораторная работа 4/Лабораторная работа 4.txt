@@ -1,0 +1,106 @@
+Задание 1
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	float a, b, S, P;
+	cout << "введите стороны прямоугольника a и b, для расчета его площади S и периметра P" << endl;
+	cout << "введите a" << endl;
+	cin >> a;
+	cout << "введите b" << endl;
+	cin >> b;
+	S = a * b;
+	cout << "Площадь S=" << S << endl;
+	P = (a + b) * 2;
+	cout << "Периметр P=" << P << endl;
+	return 0;
+}
+
+Задание 2
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	float d,p=3.14, l;
+	cout << "введите диаметр окружности d, для расчета ее длины L" << endl;
+	cout << "введите d" << endl;
+	cin >> d;
+	l = p * d;
+	cout << "Длина окружности L=" << l << endl;
+	return 0;
+}
+
+
+
+Задание 3
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	float a, b, s;
+	cout << "введите два числа a и b, для расчета их среднего арифметического" << endl;
+	cout << "введите a" << endl;
+	cin >> a;
+	cout << "введите b" << endl;
+	cin >> b;
+	s = (a + b) / 2;
+	cout << "Среднее арифметическое a и b = " << s << endl;
+	return 0;
+}
+
+
+Задание 4
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	float a, b, s, r, p, d;
+	cout << "введите два ненулевых числа a и b, для расчета суммы, разности, произведения и частного их квадратов " << endl;
+	cout << "введите a" << endl;
+	cin >> a;
+	cout << "введите b" << endl;
+	cin >> b;
+	s = pow(a,2) + pow(b,2);
+	cout << "Сумма квадратов a и b = " << s << endl;
+	r = pow(a,2) - pow(b,2);
+	cout << "Разность квадратов a и b = " << r << endl;
+	p = pow(a,2) * pow(b,2);
+	cout << "Произведение квадратов a и b = " << p << endl;
+	d = pow(a,2) / pow(b,2);
+	cout << "Частное квадратов a и b = " << d << endl;
+	return 0;
+}
+
+
+Задание 5
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	float a, b, s, r, p, d;
+	cout << "введите два ненулевых числа a и b, для расчета суммы, разности, произведения и частного их модулей" << endl;
+	cout << "введите a" << endl;
+	cin >> a;
+	cout << "введите b" << endl;
+	cin >> b;
+	s = abs(a) + abs(b);
+	cout << "Сумма модулей a и b = " << s << endl;
+	r = abs(a) - abs(b);
+	cout << "Разность модулей a и b = " << r << endl;
+	p = abs(a) * abs(b);
+	cout << "Произведение модулей a и b = " << p << endl;
+	d = abs(a) / abs(b);
+	cout << "Частное модулей a и b = " << d << endl;
+	return 0;
+}
+
