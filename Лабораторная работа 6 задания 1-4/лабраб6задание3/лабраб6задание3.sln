@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "лабраб6задание3", "лабраб6задание3.vcxproj", "{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}.Debug|x64.ActiveCfg = Debug|x64
+		{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}.Debug|x64.Build.0 = Debug|x64
+		{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}.Debug|x86.Build.0 = Debug|Win32
+		{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}.Release|x64.ActiveCfg = Release|x64
+		{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}.Release|x64.Build.0 = Release|x64
+		{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}.Release|x86.ActiveCfg = Release|Win32
+		{8A882ABF-46E2-47C3-A3F5-E2F04CABA2C4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DB8B90E-039D-4145-A708-EFF1A294CBBA}
+	EndGlobalSection
+EndGlobal
